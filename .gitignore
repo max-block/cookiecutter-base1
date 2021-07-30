@@ -1,0 +1,6 @@
+.idea
+/tmp
+!/{{cookiecutter.project_slug}}/.env
+!/{{cookiecutter.project_slug}}/ansible/hosts.yml
+!/{{cookiecutter.project_slug}}/tmp
+__pycache__
