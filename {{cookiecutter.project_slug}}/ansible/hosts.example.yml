@@ -1,14 +1,14 @@
 servers:
   hosts:
-    "demo.example.net":
-      app: demo
-      domain: demo.example.net
-      app_image: ghcr.io/user/demo
+    "demo-mb-base1.example.net":
+      app: demo-mb-base1
+      domain: demo-mb-base1.example.net
+      app_image: ghcr.io/max-block/demo-mb-base1
       db_password: secret
       access_token: secret
       app_extra_ports: []
 
   vars:
       docker_registry: ghcr.io
-      docker_username: user
+      docker_username: max-block
       docker_password: secret
