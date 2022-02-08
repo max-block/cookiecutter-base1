@@ -4,7 +4,7 @@
     "projects_data_dir": "/tmp",
     "access_token": "secret",
     "db_password": "secret",
-    "docker_registry": "ghcr.io",
+    "docker_registry": "ghcr.io/max-block",
     "docker_username": "usr",
     "docker_password": "secret",
     "domain": "app.example.com",
